@@ -13,6 +13,8 @@ function nowServing(line) {
     var firstPerson = line[0];
     line.shift()
     return `Currently serving ${firstPerson}.`;
+    //you can make it into 1 liner. Get rid of var and line shift, and
+    //just return `Currently serving ${line.shift()}.`
   }
 }
 
